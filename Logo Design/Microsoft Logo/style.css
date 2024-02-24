@@ -1,0 +1,49 @@
+.same{
+    height: 100px;
+    width: 100px;
+    flex-wrap: wrap;
+}
+
+body{
+    position: relative;
+    background-color:whitesmoke;
+}
+
+.square-1{
+    background-color:  #f25022;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+.square-2{
+    background-color: #7fba00 ;
+    position: absolute;
+    left: 312px;
+    top: 150px;
+}
+
+.square-3{
+    background-color: #00a4ef;
+    position: absolute;
+    left: 200px;
+    top: 261px;
+}
+
+.square-4{
+    background-color: #ffb900;
+    position: absolute;
+    left: 312px;
+    top: 261px;
+}
+
+.text {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: rgb(148, 143, 143);
+    padding-left: 24rem;
+    font-size: 100px;
+    font-weight: 600;
+    margin-left: 45px;
+    margin-top: 194px;
+    position: absolute;
+}

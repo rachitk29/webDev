@@ -1,0 +1,23 @@
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 17px solid rgba(2,124,185,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 222px;
+    margin: 10rem 2rem 3rem 3rem;
+    padding: 1rem 3rem 4rem 6rem;
+}
+
+.same {
+    font-size: 90px;
+    color: rgba(2,124,185,255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.E{
+    rotate: -30deg;
+}

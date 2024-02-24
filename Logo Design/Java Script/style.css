@@ -1,0 +1,24 @@
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: #fff200;
+    border: 3px solid white;
+    margin: 270px;
+    margin-top: 250px;
+}
+
+body{
+    background-color: grey;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 57px;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #211e1e;
+}
+
+
