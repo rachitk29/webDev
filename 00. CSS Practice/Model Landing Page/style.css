@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+}
+
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    font-size: 15px;
+    margin-left: 5px;
+    border-radius:40px;
+}
+
+#intro{
+    height: 45%;
+    width: 100%;
+    padding: 40px 50px;
+    /* background-color: palevioletred; */
+}
+
+#intro h1{
+    letter-spacing: -3px;
+    font-size: 70px;
+    line-height: 90px;
+}
+
+#place {
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#place h3,h4 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#hero-img{
+    height: 100%;
+    width: 100%;
+    /* background-image: url(assets/img.jpg); */
+    background-image: url(assets/img-1.jpg);
+    background-size:contain;
+}
+
+#hero-img:hover{
+    image-rendering: crisp-edges;
+}
+
+#about {
+    height: 45%;
+    width: 100%;
+    /* background-color: rgb(240, 161, 65); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+#about h2 {
+    /* background-color: red; */
+    width: 60%;
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: -3px;
+}
+
+#about-part-2 {
+    width: 30%;
+    height: 100%;
+    padding: 0 50px;
+    /* background-color: blue; */
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-part-2 h3 {
+    font-size: 25px;
+}
+
+#icons i {
+    background-color:black;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
