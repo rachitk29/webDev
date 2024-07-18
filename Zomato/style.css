@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+.main {
+    background-image: url("assets/bg.avif");
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0px 250px;
+    flex-wrap: nowrap;
+}
+
+.navbar div {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    opacity: 90%;
+    line-height: 1.4rem;
+    font-size: 1.3rem;
+    margin: 10 20px; 
+    padding: 20px 25px;
+}
+
+.middle-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align content */
+}
+
+.middle-content div {
+    margin: 5px 15px;
+    padding: 10px 20px
+}
+
+
+.logo-img img {
+    width: 250px; /* Adjust this value to resize the logo */
+    height: auto;
+}
+
+.caption h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1.4rem;
+}
+
+
+.location {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+    padding: 10px 10px;
+}
+
+.location div {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px 3px;
+    padding: 5px 3px;
+}
+
+
+.in-logo img {
+    height: 30px;
+    width: 40px;
+}
+
+
+.country-description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    margin: 0 auto;
+    max-width: 65%;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: rgb(105, 105, 105);
+}
+
