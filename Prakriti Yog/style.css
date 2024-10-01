@@ -1,0 +1,254 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    /* background: rgba(205, 200, 200, 0.942); */
+    color: #242222;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background 0.5s;
+}
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #161414;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f3f2f2;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger i {
+    font-size: 1.5em;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?yoga') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    animation: fadeIn 2s;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    animation: fadeIn 2s 1s;
+}
+
+.hero .btn {
+    background: #ff6b6b;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s;
+    animation: fadeIn 2s 2s;
+}
+
+.hero .btn:hover {
+    background: #ff4757;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Classes Section */
+#classes {
+    padding: 60px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#classes h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.class-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.class-card {
+    background: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.class-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.class-card h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+
+.class-card p {
+    font-size: 1.2em;
+    color: #ff6b6b;
+}
+
+.class-card .btn {
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.class-card .btn:hover {
+    background: #555;
+}
+
+.class-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Tutors Section */
+#tutors {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#tutors h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.tutor-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tutor-slide {
+    background: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tutor-slide img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.tutor-slide h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+
+.tutor-slide p {
+    font-size: 1.2em;
+    color: #ff6b6b;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.nav-active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .burger {
+        display: block;
+    }
+}
